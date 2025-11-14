@@ -13,12 +13,15 @@ Password are stored as hashes with bcrypt.
 Users can register for an event and can deregister themselves.
 
 The following API requests are possible:
-GET /events
-GET /events/"id"
-POST /events
-PUT /events/"id"
-DELETE /events/"id"
-PUT
+- GET /events
+- GET /events/"id"
+- POST /events
+- PUT /events/"id"
+- DELETE /events/"id"
+- POST /events/"id"/register
+- DELETE /events/"id"/register
+- POST /signup
+- POST /login
 
 ## Example
 ```
