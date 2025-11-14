@@ -21,8 +21,8 @@ DELETE /events/"id"
 PUT
 
 ## Example
-
-`PUT http://localhost:8080/events/4
+```
+PUT http://localhost:8080/events/4
 Content-type: application/json
 authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6Im1hZ3V5IiwiZXhwIjoxNzYzMDc3NjYzLCJ1c2VySUQiOjIxfQ.zVBFZYhJol8bl8Mw8298-pca6SMN9Dk-DIAELUI1IZQ
 
@@ -31,4 +31,5 @@ authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6Im1hZ3V5IiwiZXhw
     "description" : "updated",
     "location" : "am sack",
     "dateTime": "2025-10-12T15:30:12.00Z"
-}`
+}
+```
